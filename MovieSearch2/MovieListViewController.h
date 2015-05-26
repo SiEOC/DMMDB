@@ -13,3 +13,6 @@
 
 @end
 
+
+#pragma Step #1 add view to movies view controller
+

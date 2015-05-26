@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0614DB6E1B150CC200EF6884 /* NetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0614DB6D1B150CC200EF6884 /* NetWorkController.m */; };
 		34D454721B0F94AF003DC36C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D454711B0F94AF003DC36C /* main.m */; };
 		34D454751B0F94AF003DC36C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D454741B0F94AF003DC36C /* AppDelegate.m */; };
 		34D454781B0F94AF003DC36C /* MovieListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D454771B0F94AF003DC36C /* MovieListViewController.m */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0614DB6C1B150CC200EF6884 /* NetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkController.h; sourceTree = "<group>"; };
+		0614DB6D1B150CC200EF6884 /* NetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkController.m; sourceTree = "<group>"; };
 		34D4546C1B0F94AF003DC36C /* MovieSearch2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSearch2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D454701B0F94AF003DC36C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34D454711B0F94AF003DC36C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,8 +95,10 @@
 			children = (
 				34D454731B0F94AF003DC36C /* AppDelegate.h */,
 				34D454741B0F94AF003DC36C /* AppDelegate.m */,
-				34D454761B0F94AF003DC36C /* MovieListViewController.h */,
+				0614DB6C1B150CC200EF6884 /* NetWorkController.h */,
+				0614DB6D1B150CC200EF6884 /* NetWorkController.m */,
 				34D454771B0F94AF003DC36C /* MovieListViewController.m */,
+				34D454761B0F94AF003DC36C /* MovieListViewController.h */,
 				34D454981B0F9622003DC36C /* MovieController.h */,
 				34D454991B0F9622003DC36C /* MovieController.m */,
 				34D4549B1B0F9639003DC36C /* Movie.h */,
@@ -239,6 +244,7 @@
 				34D454971B0F95E6003DC36C /* MovieDetailViewController.m in Sources */,
 				34D454781B0F94AF003DC36C /* MovieListViewController.m in Sources */,
 				34D454751B0F94AF003DC36C /* AppDelegate.m in Sources */,
+				0614DB6E1B150CC200EF6884 /* NetWorkController.m in Sources */,
 				34D454721B0F94AF003DC36C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +436,7 @@
 				34D454911B0F94AF003DC36C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34D454921B0F94AF003DC36C /* Build configuration list for PBXNativeTarget "MovieSearch2Tests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +445,7 @@
 				34D454941B0F94AF003DC36C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
