@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "MovieListViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,8 +22,15 @@
 {
      // Make Window sized to Screen 
     self.window = [[UIWindow alloc]initWithFrame:[[ UIScreen mainScreen]bounds]];
+     // Make NavigationController the roor view controller & Created the NavigationController
+    //  Split View Controller asigned to Movie controller
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[MovieListViewController new]];
     
-    
+    // Set BackGround Color With Message Call
+    self.window.backgroundColor = [UIColor whiteColor];
+    // Any ViewControllers that call on this will be visible to User
+    [self.window makeKeyAndVisible];
+    //Return the method value to the calling Class Object (VC) the Reciever
     return YES;
 }
 

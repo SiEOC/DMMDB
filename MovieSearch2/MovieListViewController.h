@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MovieListViewController : UIViewController
+@interface MovieListViewController : UISplitViewController
 
 @property (nonatomic, strong) UIView *viewController;
 
