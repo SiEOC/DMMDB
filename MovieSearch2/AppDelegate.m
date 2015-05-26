@@ -14,9 +14,14 @@
 
 @implementation AppDelegate
 
+#pragma step 1
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+     // Make Window sized to Screen 
+    self.window = [[UIWindow alloc]initWithFrame:[[ UIScreen mainScreen]bounds]];
+    
+    
     return YES;
 }
 

@@ -10,9 +10,10 @@
 
 @interface MovieListViewController : UIViewController
 
+@property (nonatomic, strong) UIView *viewController;
 
 @end
 
 
-#pragma Step #1 add view to movies view controller
+
 

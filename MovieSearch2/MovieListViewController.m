@@ -7,13 +7,14 @@
 //
 
 #import "MovieListViewController.h"
+#import "Movie.h"
 
 @interface MovieListViewController ()
 
 @end
 
 @implementation MovieListViewController
-#pragma step #2B
+
 
 - (void)viewDidLoad
 {
