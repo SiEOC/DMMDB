@@ -7,6 +7,7 @@
 //
 
 #import "MovieController.h"
+#import "NetWorkController.h"
 
 @implementation MovieController
 
@@ -21,4 +22,9 @@
     
 }
 
+- (void)getResultMovies:(NSString *)name completion:(void (^))(BOOL)completion
+{
+    NSString *netWorkPath = [NetWorkController baseURLString];
+    
+}
 @end

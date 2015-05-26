@@ -14,4 +14,6 @@
 
 @property (nonatomic, strong) NSArray *resultMovies;
 
+//- (void)getResultMovies:(NSString *)name completion:(void(^)(BOOL));
+
 @end
